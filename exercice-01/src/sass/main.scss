@@ -1,0 +1,63 @@
+// Variables
+@import "variables";
+
+
+body {
+  background-color: $dark-blue ;
+  background-image:  url("../../assets/imgs/frame-1.svg") ; 
+  background-repeat: no-repeat;
+  font-family: degular,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  
+} 
+
+
+h1 {
+  font-family: degular-display,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: $light-blue;
+} 
+
+.bientot{
+  background-image: url("../../assets/imgs/star-2.svg");
+  background-repeat: no-repeat;
+  }
+
+  .test
+  {border: 1px solid red;}
+
+  .stars{
+    background-image: url("../../assets/imgs/star-3.svg");
+    background-repeat: no-repeat;
+    background-position: 90% 100%;
+    }
+
+    .rectangle{
+      background-color: $dark-orange;
+      transform: rotate(-2deg);
+      height: 4rem;
+      position: relative;
+      top: 5.5rem;
+      z-index: 2;
+    }  
+      h5{
+      background-color: $light-orange;
+      font-family: degular-display,sans-serif;
+      position: relative;
+      transform: rotate(-4deg);
+      z-index: 10;
+      font-size: 1.8rem;
+    }
+
+    .mi-cercle{
+      position: relative;
+      bottom: 2rem;
+      right: 4rem;
+      z-index: 1;
+    }
+
+    a:hover{
+      text-decoration: none;
+    }
