@@ -16,7 +16,9 @@ add_shortcode("show_social_network", "generate_social_media");
 function generate_social_media( $atts){
     return '<ul>
     <li> <a href="https://facebook.com/'.$atts["facebook"].'"> Facebook</a> </li>
-    <li> <a href="https://facebook.com/'.$atts["instagram"].'"> Facebook</a> </li>
+    <li> <a href="https://instagram.com/'.$atts["instagram"].'"> Instagram</a> </li>
+    <li> <a href="https://Linkedin.com/'.$atts["linkedin"].'"> Instagram</a> </li>
+    <li> <a href="https://GitHub.com/'.$atts["github"].'"> Instagram</a> </li>
     </ul>
     <a>';
 }
